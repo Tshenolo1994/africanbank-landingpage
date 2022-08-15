@@ -101,7 +101,7 @@ import {
   
   const DesktopNav = () => {
     const linkColor = useColorModeValue('white.600', 'white.200');
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
+    const linkHoverColor = useColorModeValue('#C6E912', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
@@ -253,18 +253,7 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Home',
-      children: [
-        {
-          label: 'Products',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
-        },
-        {
-          label: 'Banking',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
-        },
-      ],
+      href: '/',
     },
     {
       label: 'Products',
@@ -282,8 +271,8 @@ import {
       ],
     },
     {
-      label: 'Banking',
-      href: '#',
+      label: 'Compare Products',
+      href: '/comparison',
     },
     {
       label: 'Contact',

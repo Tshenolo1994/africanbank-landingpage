@@ -92,6 +92,22 @@ code {
   transform: translate(-50%, 50%);
 
 }
+.el-5{
+  width: 50vw;
+  height: 50vh;
+  padding: 1rem;
+
+  background-image: url(https://images.unsplash.com/photo-1612299273045-362a39972259?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  mask-image: url(https://freesvg.org/img/1522440303.png);
+  mask-size: 90vmin;
+  mask-repeat: no-repeat;
+  mask-position: center;
+
+}
 .swiper {
 position: relative;
   height: 95vh;
