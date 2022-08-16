@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, GridItem, Image, Box, Text , Flex } from '@chakra-ui/react'
+import { Grid, GridItem, Image, Box, Text , Flex, Button } from '@chakra-ui/react'
 import karabo from "../assets/karabo.png"
 import chatVideo from "../assets/karabo-chat.mp4"
 import {AiFillSound} from "react-icons/ai"
@@ -49,6 +49,7 @@ function Karabo() {
         <Text w="70%" mt={8}>With our AI technology inyegration, you will always get an answer with Karabo, anytikme and anywhere</Text>
     </Box>
    </Flex>
+   <Button>Chat to Karabo</Button>
     </Box>
   </GridItem>
 </Grid>
