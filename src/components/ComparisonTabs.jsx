@@ -23,7 +23,7 @@ function ComparisonTabs() {
 <Box display="flex" flexDirection="column" gap="2">
 <Text fontWeight="600" fontSize='22px' >Compare Loans</Text>
      <Text >Get the best loan rates in the country. Gaurateed returns in 60 months, with personal loan rate at just 12%</Text>
-     <Button>Apply Now</Button>
+     <Button>Compare</Button>
 </Box>
  </Flex>
   </Box>
