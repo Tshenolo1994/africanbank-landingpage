@@ -65,6 +65,7 @@ export default function App() {
    bottom="20%"
    textAlign="left"
    w="35%"
+   mt={8}
     >African Bank is a financial solution that works as a digital account, for financial management and insertion, aimed at educational and cultural initiatives, commercial establishments and the promotion of tourist equipment.</Text>
                 <Box className="el-3"></Box>
             </Flex>
@@ -72,10 +73,10 @@ export default function App() {
             left="10%"
             className="text"
             color="rgba(0,24,69, .3)"
-            fontSize="150px" fontFamily="Altone Trial">INVEST</Text>
+            fontSize="120px" fontFamily="Altone Trial">INVEST</Text>
           
             <Text position="absolute" fontFamily="Altone Trial"
-            right="-35%"  fontSize="150px"  color="rgba(0,24,69, .3)"
+            right="-35%"  fontSize="120px"  color="rgba(0,24,69, .3)"
     className="text"
             >INSURE</Text>
         </SwiperSlide>
