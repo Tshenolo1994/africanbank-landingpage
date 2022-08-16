@@ -44,8 +44,9 @@ import {
 <Box w="100%" h="10vh"   bg="transparent" display="flex" justifyContent="space-between" flexDir="row"
       mt="20"
       alignItems="center"
+      gap={6}
     >
-      <Flex flexDirection="row" justifyContent="center" alignItems="center" mt={8}>
+      <Flex flexDirection="row" justifyContent="center" alignItems="center" mt={8} >
 <Box display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" gap={2}>
 
 <Text  textAlign="left" fontSize='4xl' color="#fafafa">3M</Text>
@@ -57,18 +58,18 @@ import {
 <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
 <Avatar name="Prosper Otemuyiwa" src="https://bit.ly/prosper-baba" />
 </AvatarGroup>
-<Text fontSize='sm' w="100%" textAlign="left" color="#fafafa" mt={2}>We have almost 3 million users in South Africa who are happy with our product</Text>
+<Text fontSize='sm' w="100%" textAlign="left" color="#fafafa" mt={2}>We have almost 3 million users in SA who are happy with our product</Text>
 </Flex>
 </Box>
 
 </Flex>
       
 <Flex flexDirection="column" >
-<Text fontSize='2xl' w="60%" textAlign="left" color="#C6E912">#1</Text>
+<Text fontSize='1xl' w="100%" textAlign="left" color="#C6E912">#1</Text>
 <Text fontSize='sm' w="100%" textAlign="left" color="#fafafa" >Rated the best bank for customer satisfaction</Text>
 </Flex>
 <Flex flexDirection="column" >
-<Text fontSize='2xl' w="80%" textAlign="left" color="#C6E912">12.5% </Text>
+<Text fontSize='1xl' w="100%" textAlign="left" color="#C6E912">12.5% </Text>
 <Text fontSize='sm' w="100%" textAlign="left" color="#fafafa">SA's best rate of 12.50%.  <ArrowForwardIcon /></Text>
 </Flex>
       
