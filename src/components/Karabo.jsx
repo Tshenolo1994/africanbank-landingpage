@@ -36,21 +36,21 @@ function Karabo() {
   </GridItem>
   <GridItem w='100%' h='100%' >
 
-    <Box ml={24}>
-<Box>        <Text fontSize="6xl" fontFamily="Altone Trial">Meet Karabo</Text>
+    <Box ml={24} display='flex' justifyContent='center' alignItems="center" flexDir="column">
+<Box w="100%">        <Text fontSize="6xl" fontFamily="Altone Trial">Meet Karabo</Text>
         <Text display="flex" alignItems="center" gap={2}>[ Ka-ra-bo] <AiFillSound /></Text>
         <Text w="80%">Karabo is a given name in southern Africa. It means "answer". He is here to answer all your African Bank questions</Text></Box>
-   <Flex justifyContent="space-between" mt={24} w="100%">
+   <Flex justifyContent="space-between" mt={24} w="100%" gap={20}>
     <Box>
         <Text fontSize="2xl" fontFamily="Altone Trial">AI Powered</Text>
-        <Text w="90%" mt={8}>With our AI technology inyegration, you will always get an answer with Karabo, anytikme and anywhere</Text>
+        <Text w="100%" mt={8}>With our AI technology inyegration, you will always get an answer with Karabo, anytikme and anywhere</Text>
     </Box>
     <Box>
     <Text fontSize="2xl" fontFamily="Altone Trial">Endless Customer Support</Text>
-        <Text w="90%" mt={8}>With our AI technology inyegration, you will always get an answer with Karabo, anytikme and anywhere</Text>
+        <Text w="100%" mt={8}>With our AI technology inyegration, you will always get an answer with Karabo, anytikme and anywhere</Text>
     </Box>
    </Flex>
-   <Button>Chat to Karabo</Button>
+   <Button mt={4}>Chat to Karabo</Button>
     </Box>
   </GridItem>
 </Grid>
