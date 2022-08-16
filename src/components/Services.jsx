@@ -30,9 +30,9 @@ without being taken away.
   <GridItem w='100%' h='100%' background="#C6E912">
 <Flex flexDirection="column" alignItems="center" h="100%"
  justifyContent="space-evenly">
-<Text fontSize='6xl'  textAlign="center" color="#140e2e" fontFamily="Altone Trial" w="100%" mt={8}>Get value with African Bank
+<Text fontSize='4xl'  textAlign="center" color="#140e2e" fontFamily="Altone Trial" w="100%" mt={8}>Get value with African Bank
 </Text> 
-<Text w="55%">
+<Text w="85%">
 <p>Integrate African Bank on your web-site to offer fast, secure and seamless online bank transfer payment method</p>
 <p>You could receive payments straight into your company bank account or open a Banky merchant account and collect funds there.
 </p>
@@ -41,8 +41,8 @@ without being taken away.
 </Flex>
   </GridItem>
   <GridItem w='100%' h='100%' >
-  <SimpleGrid columns={2} spacing={0} h="100%">
-  <Box backgroundColor="rgba(198,233,18, .3)" h="100%" p={12}>
+  <SimpleGrid columns={2} spacing={0} h="100%" w="100%">
+  <Box backgroundColor="rgba(198,233,18, .3)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <HiOutlineDocumentText
     size="80px"
@@ -56,7 +56,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(198,233,18, .1)" h="100%" p={12}>
+  <Box backgroundColor="rgba(198,233,18, .1)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <RiQuestionAnswerLine
     size="80px"
@@ -70,7 +70,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(198,233,18, .1)" h="100%" p={12}>
+  <Box backgroundColor="rgba(198,233,18, .1)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <FaCcMastercard
     size="80px"
@@ -84,7 +84,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(198,233,18, .3)" h="100%" p={12}>
+  <Box backgroundColor="rgba(198,233,18, .3)" h="100%" p={8}>
  <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <RiGroupLine
     size="80px"
@@ -112,9 +112,9 @@ without being taken away.
   <GridItem w='100%' h='100%'         background="#140e2e">
 <Flex flexDirection="column" alignItems="center" h="100%"
  justifyContent="space-evenly">
-<Text fontSize='6xl'  textAlign="center" color="#fefcf7"  fontFamily="Altone Trial" w="100%" mt={8}>Get value with African Bank
+<Text fontSize='4xl'  textAlign="center" color="#fefcf7"  fontFamily="Altone Trial" w="100%" mt={8}>Get value with African Bank
 </Text> 
-<Text w="55%" color="#fefcf7">
+<Text w="85%" color="#fefcf7">
 <p>Integrate African Bank your web-site to offer fast, secure and seamless online bank transfer payment method</p>
 <p>You could receive payments straight into your company bank account or open a Banky merchant account and collect funds there.
 </p>
@@ -123,8 +123,8 @@ without being taken away.
 </Flex>
   </GridItem>
   <GridItem w='100%' h='100%' >
-  <SimpleGrid columns={2} spacing={0} h="100%">
-  <Box backgroundColor="rgba(0,24,69, .3)" h="100%" p={12}>
+  <SimpleGrid columns={2} spacing={0} h="100%" w="100%">
+  <Box backgroundColor="rgba(0,24,69, .3)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <HiOutlineDocumentText
     size="80px"
@@ -138,7 +138,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(0,24,69, .1)" h="100%" p={12}>
+  <Box backgroundColor="rgba(0,24,69, .1)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <RiQuestionAnswerLine
     size="80px"
@@ -152,7 +152,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(0,24,69, .1)" h="100%" p={12}>
+  <Box backgroundColor="rgba(0,24,69, .1)" h="100%" p={8}>
   <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <FaCcMastercard
     size="80px"
@@ -166,7 +166,7 @@ without being taken away.
 </Box>
  </Flex>
   </Box>
-  <Box backgroundColor="rgba(0,24,69, .3)" h="100%" p={12}>
+  <Box backgroundColor="rgba(0,24,69, .3)" h="100%" p={8}>
  <Flex flexDirection="column" justifyContent="space-evenly" h="100%">
  <RiGroupLine
     size="80px"
