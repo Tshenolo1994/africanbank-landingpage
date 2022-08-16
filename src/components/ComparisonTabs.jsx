@@ -10,7 +10,7 @@ function ComparisonTabs() {
     const [value, setValue] = React.useState('1')
   return (
     <Tabs variant='' colorScheme='green'>
-    <TabList display="flex" alignItems="center" justifyContent="center">
+    <TabList display="flex" alignItems="center" justifyContent="center" overflowX={'auto'}>
       <Tab>
       <Box backgroundColor="rgba(0,24,69, .3)" h="100%" p={12}
       boxSize="350px">

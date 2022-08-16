@@ -49,7 +49,7 @@ function OtherServices() {
 <Box  w="100%" display="flex" justifyContent="space-evenly" gap={4} flexDirection="column" p={8} >
 <Text fontSize="4xl" fontWeight="400" fontFamily="Altone Trial">Insure</Text>
           <Text fontSize="3xl" fontWeight="300">12% interest rates</Text>
-          <Text fontSize="xl">Get insurance for those unexpected events in your life. We will cover ypur credot life and funeral cover</Text>
+          <Text fontSize="xl">Get insurance for those unexpected events in your life. We will cover your credot life and funeral cover</Text>
        
           <ButtonGroup variant='outline' spacing='6'>
   <Button colorScheme="#140e2e">Apply Now</Button>
