@@ -79,7 +79,7 @@ const handleCalculations  = () => {
   <GridItem w='100%' h='100%' p={24} display="flex" justifyContent="center" alignItems="center"> 
 <Flex flexDirection="column" gap={5}>
 
-    <Text fontSize="6xl">Calculate your potential Investment returns</Text>
+    <Text fontSize="5xl" w="100%">Calculate your potential Investment returns</Text>
     <Text w="75%">Lower your rate. Change your term. Take cash out to pay off debt. No matter which option you choose, refinancing with Lower can save you money.</Text>
 <Stack spacing={16}>
 <Flex flexDirection="column">
