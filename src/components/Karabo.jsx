@@ -6,7 +6,7 @@ import {AiFillSound} from "react-icons/ai"
 
 function Karabo() {
   return (
-<Grid templateColumns='repeat(2, 1fr)'  m={24} h="70vh" >
+<Grid templateColumns='repeat(2, 1fr)'  m={24} h="100%" >
   <GridItem w='100%' h='100%'  backgroundColor="rgba(0,24,69, .05)" overflow="hidden" display="flex"
   justifyContent="center"
   alignItems="center"

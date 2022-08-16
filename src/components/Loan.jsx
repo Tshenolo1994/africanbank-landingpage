@@ -75,7 +75,7 @@ const handleCalculations  = () => {
 }
 
   return (
-<Grid templateColumns='repeat(2, 1fr)' gap={0} h="100vh">
+<Grid templateColumns='repeat(2, 1fr)' gap={0} h="100%">
   <GridItem w='100%' h='100%' p={24} display="flex" justifyContent="center" alignItems="center"> 
 <Flex flexDirection="column" gap={5}>
 

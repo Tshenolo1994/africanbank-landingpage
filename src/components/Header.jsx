@@ -20,7 +20,7 @@ import {
 
   export default function SplitScreen() {
     return (
-       <Box h="95vh">
+       <Box h="100%">
          <Grid templateColumns='repeat(2, 1fr)' gap={1} h="100%"
         padding={24}
       paddingTop={30}
@@ -45,7 +45,7 @@ import {
       
       alignItems="center"
     >
-      <Flex flexDirection="row" justifyContent="center" alignItems="center">
+      <Flex flexDirection="row" justifyContent="center" alignItems="center" mt={8}>
 <Box display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" gap={8}>
 
 <Text  textAlign="left" fontSize='6xl' color="#fafafa">3M</Text>
