@@ -152,7 +152,7 @@ defaultValue={0}
 <Flex>
 
 </Flex>
-    <Flex gap={8} mt={10}>
+    <Flex gap={2} mt={10}>
     <Button w="50%" onClick={handleCalculations}> Calculate repayment</Button>
     <Button w="50%"> Apply now</Button>
     </Flex>

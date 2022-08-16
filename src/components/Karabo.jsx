@@ -12,11 +12,12 @@ function Karabo() {
   alignItems="center"
   >
 
-  <Box textAlign="center" w="55%" 
+  <Box textAlign="center" w="50%" 
+  display="flex" justifyContent="center" alignItems="center" flexDir="column"
 
 >
         <Box
-          pt={40}
+          // pt={40}
         boxShadow='none'  rounded='md'
         borderRadius="20"
       as='video'
@@ -26,7 +27,7 @@ function Karabo() {
       src={chatVideo}
     //   poster='https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217'
       alt='Big Buck Bunny'
-      objectFit='contain'
+      objectFit='cover'
       sx={{
         aspectRatio: '1'
       }}
@@ -36,7 +37,7 @@ function Karabo() {
   <GridItem w='100%' h='100%' >
 
     <Box ml={24}>
-<Box>        <Text fontSize="7xl" fontFamily="Altone Trial">Meet Karabo</Text>
+<Box>        <Text fontSize="6xl" fontFamily="Altone Trial">Meet Karabo</Text>
         <Text display="flex" alignItems="center" gap={2}>[ Ka-ra-bo] <AiFillSound /></Text>
         <Text w="50%">Karabo is a given name in southern Africa. It means "answer". He is here to answer all your African Bank questions</Text></Box>
    <Flex justifyContent="space-between" mt={24}>
