@@ -105,7 +105,7 @@ import {
               }}
               textAlign={'center'}>
               <Heading size={'lg'}>
-              Get the credit card that suits you
+             We got you covered
               </Heading>
             </Stack>
             <Stack
