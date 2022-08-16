@@ -30,25 +30,25 @@ import {
         <Box w="100%" h="100%"  bg="transparent" display="flex" flexDirection="column" justifyContent="space-between" alignItems="flex-start" gap={2} pt="15">
 <Flex flexDirection="column" justifyContent="center" alignItems="flex-start" paddingTop="10" gap={0}>
 
-<Text fontSize='6xl'  textAlign="left" color="#fafafa" fontFamily="Altone Trial" w="100%" >The Bank for the people <br /> Ran by the people</Text>
+<Text fontSize='4xl'  textAlign="left" color="#fafafa" fontFamily="Altone Trial" w="85%" >The Bank for the people <br /> Ran by the people</Text>
 <Text fontSize='md' textAlign="left" color="#fafafa" w="60%" mt="0">We are continually innovating financial solutions that are more valuable and more accessible. We call it humanity through banking</Text>
 <Stack spacing={4} direction='row'   mt={8}>
-  <Button colorScheme='blackAlpha' size='lg' color="#C6E912">
+  <Button colorScheme='blackAlpha' size='md' color="#C6E912">
  Open an account
   </Button>
-  <Button  colorScheme='blackAlpha' size='lg'  variant='outline' color="#C6E912">
+  <Button  colorScheme='blackAlpha' size='md'  variant='outline' color="#C6E912">
     Watch our latest ad
   </Button>
   </Stack>
 </Flex>
 <Box w="100%" h="10vh"   bg="transparent" display="flex" justifyContent="space-between" flexDir="row"
-      
+      mt="20"
       alignItems="center"
     >
       <Flex flexDirection="row" justifyContent="center" alignItems="center" mt={8}>
-<Box display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" gap={8}>
+<Box display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" gap={2}>
 
-<Text  textAlign="left" fontSize='6xl' color="#fafafa">3M</Text>
+<Text  textAlign="left" fontSize='4xl' color="#fafafa">3M</Text>
 <Flex flexDirection="column">
 
 <AvatarGroup size="md" max={4}>
@@ -57,7 +57,7 @@ import {
 <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
 <Avatar name="Prosper Otemuyiwa" src="https://bit.ly/prosper-baba" />
 </AvatarGroup>
-<Text fontSize='sm' w="80%" textAlign="left" color="#fafafa" mt={2}>We have almost 3 million users in South Africa who are happy with our product</Text>
+<Text fontSize='sm' w="100%" textAlign="left" color="#fafafa" mt={2}>We have almost 3 million users in South Africa who are happy with our product</Text>
 </Flex>
 </Box>
 
@@ -65,11 +65,11 @@ import {
       
 <Flex flexDirection="column" >
 <Text fontSize='2xl' w="60%" textAlign="left" color="#C6E912">#1</Text>
-<Text fontSize='sm' w="80%" textAlign="left" color="#fafafa" >Rated the best bank for customer satisfaction</Text>
+<Text fontSize='sm' w="100%" textAlign="left" color="#fafafa" >Rated the best bank for customer satisfaction</Text>
 </Flex>
 <Flex flexDirection="column" >
 <Text fontSize='2xl' w="80%" textAlign="left" color="#C6E912">12.5% </Text>
-<Text fontSize='sm' w="80%" textAlign="left" color="#fafafa">SA's best rate of 12.50%.  <ArrowForwardIcon /></Text>
+<Text fontSize='sm' w="100%" textAlign="left" color="#fafafa">SA's best rate of 12.50%.  <ArrowForwardIcon /></Text>
 </Flex>
       
 
@@ -91,11 +91,11 @@ mt="18"
   src={bills}
   alt="Segun Adebayo"
 />
-<Box textAlign="center" w="48%"
-position="absolute"  left="20%" top="10%">
+<Box textAlign="center" w="40%"
+position="absolute"  left="25%" top="10%">
         <Box
-        boxShadow='md'  rounded='md'
-        borderRadius="20"
+    rounded='sm'
+        borderRadius="5"
       as='video'
    
       muted autoPlay 
@@ -105,7 +105,7 @@ position="absolute"  left="20%" top="10%">
       alt='Big Buck Bunny'
       objectFit='contain'
       sx={{
-        aspectRatio: '1'
+        aspectRatio: '0'
       }}
   />
         </Box>
