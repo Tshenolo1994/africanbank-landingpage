@@ -30,7 +30,7 @@ import {
         <Box w="100%" h="100%"  bg="transparent" display="flex" flexDirection="column" justifyContent="space-between" alignItems="flex-start" gap={2} pt="15">
 <Flex flexDirection="column" justifyContent="center" alignItems="flex-start" paddingTop="10" gap={0}>
 
-<Text fontSize='6xl'  textAlign="left" color="#fafafa" fontFamily="Altone Trial" w="100%">The Bank for the people <br /> Ran by the people</Text>
+<Text fontSize='6xl'  textAlign="left" color="red" fontFamily="Altone Trial" w="100%" >The Bank for the people <br /> Ran by the people</Text>
 <Text fontSize='md' textAlign="left" color="#fafafa" w="60%" mt="0">We are continually innovating financial solutions that are more valuable and more accessible. We call it humanity through banking</Text>
 <Stack spacing={4} direction='row'   mt={8}>
   <Button colorScheme='blackAlpha' size='lg' color="#C6E912">
