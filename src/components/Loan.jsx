@@ -164,7 +164,7 @@ defaultValue={0}
   
   <GridItem w='100%' h='100%'p={24} display="flex" justifyContent="center" alignItems="center">
   <Box>
-  <CircularProgress value={40} color="#C6E912" size="450" thickness='4px' >
+  <CircularProgress value={40} color="#C6E912" size="480" thickness='4px' >
  
   <CircularProgressLabel fontSize="7xl"> R {totalInvestment}
   <br />
