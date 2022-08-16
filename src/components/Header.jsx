@@ -23,12 +23,12 @@ import {
        <Box h="100%">
          <Grid templateColumns='repeat(2, 1fr)' gap={1} h="100%"
         padding={24}
-      paddingTop={30}
+      paddingTop={20}
       background="#140e2e"
         position="relative">
 
         <Box w="100%" h="100%"  bg="transparent" display="flex" flexDirection="column" justifyContent="space-between" alignItems="flex-start" gap={2} pt="15">
-<Flex flexDirection="column" justifyContent="center" alignItems="flex-start" paddingTop="10" gap={8}>
+<Flex flexDirection="column" justifyContent="center" alignItems="flex-start" paddingTop="10" gap={0}>
 
 <Text fontSize='7xl'  textAlign="left" color="#fafafa" fontFamily="Altone Trial" w="100%">The Bank for the people <br /> Ran by the people</Text>
 <Text fontSize='md' textAlign="left" color="#fafafa" w="60%" mt="0">We are continually innovating financial solutions that are more valuable and more accessible. We call it humanity through banking</Text>
@@ -91,7 +91,7 @@ mt="18"
   src={bills}
   alt="Segun Adebayo"
 />
-<Box textAlign="center" w="45%"
+<Box textAlign="center" w="48%"
 position="absolute"  left="20%" top="10%">
         <Box
         boxShadow='md'  rounded='md'
