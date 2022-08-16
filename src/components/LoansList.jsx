@@ -8,6 +8,7 @@ import {
     ListItem,
     Stack,
     Text,
+    Link,
     useColorModeValue,
   } from '@chakra-ui/react';
   import { FaCheckCircle } from 'react-icons/fa';
@@ -27,6 +28,7 @@ import {
     title,
     options,
     typePlan,
+    linkUrl,
     checked = false,
   }: PackageTierProps) => {
     const colorTextLight = checked ? 'white' : 'purple.600';
@@ -59,12 +61,19 @@ import {
         </List>
         <Heading size={'xl'}>{typePlan}</Heading>
         <Stack>
-          <Button
+        <Link
+          isExternal
+          href={linkUrl}
+          pt={2}
+          pb={2}
+          pr={4}
+          pl={4}
+          borderRadius={'5px'}
             size="md"
             color="#fafafafa"
             bgColor="#140e2e">
             Get Started
-          </Button>
+          </Link>
         </Stack>
       </Stack>
     );
@@ -107,16 +116,22 @@ import {
             </Stack>
           </Stack>
           <Divider />
-          <PackageTier title={'Personal Loan'} typePlan="15%" options={options} />
+          <PackageTier title={'Personal Loan'} typePlan="15%" options={options} 
+          
+          
+          linkUrl="https://www.africanbank.co.za/en/home/product-personal-loan/"/>
           <Divider />
           <PackageTier
             title={'Consololidation Loan'}
             checked={true}
             typePlan="18%"
             options={options}
+            linkUrl="https://www.africanbank.co.za/en/home/product-consolidation-loan/"
           />
           <Divider />
-          <PackageTier title={'In-house Loan'} typePlan="12%" options={options} />
+          <PackageTier title={'In-house Loan'} typePlan="12%" options={options}
+             linkUrl="https://www.africanbank.co.za/en/home/product-12-loan/"
+          />
         </Stack>
       </Box>
     );

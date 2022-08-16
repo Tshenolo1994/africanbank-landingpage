@@ -9,6 +9,7 @@ import {
     Stack,
     Text,
     Flex,
+    Link,
     useColorModeValue,
   } from '@chakra-ui/react';
   import { FaCheckCircle } from 'react-icons/fa';
@@ -28,6 +29,7 @@ import {
     title,
     options,
     typePlan,
+    linkUrl,
     checked = false,
     day
   }: PackageTierProps) => {
@@ -65,12 +67,19 @@ import {
         <Text>{day} </Text>
         </Flex>
         <Stack>
-          <Button
+        <Link
+          isExternal
+          href={linkUrl}
+          pt={2}
+          pb={2}
+          pr={4}
+          pl={4}
+          borderRadius={'5px'}
             size="md"
             color="#fafafafa"
             bgColor="#140e2e">
             Get Started
-          </Button>
+          </Link>
         </Stack>
       </Stack>
     );
@@ -113,7 +122,9 @@ import {
             </Stack>
           </Stack>
           <Divider />
-          <PackageTier title={'Fixed Deposits'} typePlan="6%" day="3 months" options={options} />
+          <PackageTier title={'Fixed Deposits'} typePlan="6%" day="3 months" options={options} 
+          linkUrl="https://www.africanbank.co.za/en/home/product-fixed-deposit-investment/"
+          />
           <Divider />
           <PackageTier
             title={'Notice Deposits'}
@@ -121,11 +132,16 @@ import {
             typePlan="5.37%" 
             day="7 days"
             options={options}
+            linkUrl="https://www.africanbank.co.za/en/home/product-notice-deposit/"
           />
           <Divider />
-          <PackageTier title={'Access Accumulator'} day="24 months" typePlan="5.5%" options={options} />
+          <PackageTier title={'Access Accumulator'} day="24 months" typePlan="5.5%" options={options}
+           linkUrl="https://www.africanbank.co.za/en/home/product-access-accumulator/"
+          />
           <Divider />
-          <PackageTier title={'Tax Free'} typePlan="8.16%"  day="1 day" options={options} />
+          <PackageTier title={'Tax Free'} typePlan="8.16%"  day="1 day" options={options}
+          linkUrl="https://www.africanbank.co.za/en/home/product-tax-free/"
+          />
         </Stack>
       </Box>
     );

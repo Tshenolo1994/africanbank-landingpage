@@ -8,6 +8,7 @@ import {
     ListItem,
     Stack,
     Text,
+    Link,
     Flex,
     useColorModeValue,
   } from '@chakra-ui/react';
@@ -28,6 +29,7 @@ import {
     title,
     options,
     typePlan,
+    linkUrl,
     checked = false,
   }: PackageTierProps) => {
     const colorTextLight = checked ? 'white' : 'purple.600';
@@ -64,12 +66,19 @@ import {
         <Text>per month</Text>
         </Flex>
         <Stack>
-          <Button
+          <Link
+          isExternal
+          href={linkUrl}
+          pt={2}
+          pb={2}
+          pr={4}
+          pl={4}
+          borderRadius={'5px'}
             size="md"
             color="#fafafafa"
             bgColor="#140e2e">
             Get Started
-          </Button>
+          </Link>
         </Stack>
       </Stack>
     );
@@ -112,13 +121,17 @@ import {
             </Stack>
           </Stack>
           <Divider />
-          <PackageTier title={'Credit Life Insurance'} typePlan="R22" options={options} />
+          <PackageTier title={'Credit Life Insurance'} typePlan="R22" options={options}
+          
+          linkUrl="https://www.africanbank.co.za/en/home/product-credit-life/"
+          />
           <Divider />
           <PackageTier
             title={'Funeral Plan'}
             checked={true}
             typePlan="R22"
             options={options}
+            linkUrl="https://www.africanbank.co.za/en/home/product-funeral-cover/"
           />
 
         </Stack>

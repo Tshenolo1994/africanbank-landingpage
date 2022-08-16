@@ -9,6 +9,7 @@ import {
     Stack,
     Text,
     Flex,
+    Link,
     useColorModeValue,
   } from '@chakra-ui/react';
   import { FaCheckCircle } from 'react-icons/fa';
@@ -28,6 +29,7 @@ import {
     title,
     options,
     typePlan,
+    linkUrl,
     checked = false,
   }: PackageTierProps) => {
     const colorTextLight = checked ? 'white' : 'purple.600';
@@ -64,12 +66,19 @@ import {
         <Text>Annual Income</Text>
         </Flex>
         <Stack>
-          <Button
+        <Link
+          isExternal
+          href={linkUrl}
+          pt={2}
+          pb={2}
+          pr={4}
+          pl={4}
+          borderRadius={'5px'}
             size="md"
             color="#fafafafa"
             bgColor="#140e2e">
             Get Started
-          </Button>
+          </Link>
         </Stack>
       </Stack>
     );
@@ -112,16 +121,21 @@ import {
             </Stack>
           </Stack>
           <Divider />
-          <PackageTier title={'Blue Credit Card'} typePlan="R84 000" options={options} />
+          <PackageTier title={'Black Credit Card'} typePlan="R84 000" options={options} 
+          linkUrl="https://www.africanbank.co.za/en/home/product-credit-card/"
+          />
           <Divider />
           <PackageTier
             title={'Wealth Credit Card'}
             checked={true}
             typePlan="R240 000"
             options={options}
+            linkUrl="https://www.africanbank.co.za/en/home/product-credit-card/"
           />
           <Divider />
-          <PackageTier title={'Premium Credit Card'} typePlan="R850 000" options={options} />
+          <PackageTier title={'Premium Credit Card'} typePlan="R850 000" options={options} 
+                  linkUrl="https://www.africanbank.co.za/en/home/product-credit-card/"
+          />
         </Stack>
       </Box>
     );

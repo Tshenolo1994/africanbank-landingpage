@@ -13,6 +13,7 @@ import {
     PopoverContent,
     useColorModeValue,
     useBreakpointValue,
+    Image,
     useDisclosure,
   } from '@chakra-ui/react';
   import {
@@ -21,7 +22,7 @@ import {
     ChevronDownIcon,
     ChevronRightIcon,
   } from '@chakra-ui/icons';
-  
+  import Logo from "../assets/logo-white.png"
   export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure();
   
@@ -50,13 +51,13 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color="#fafafa">
-              Logo
-            </Text>
+          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }} alignItems="center">
+          <Image
+   w="200px"
+    objectFit='cover'
+    src={Logo}
+    alt='Dan Abramov'
+  />
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
@@ -111,6 +112,7 @@ import {
             <Popover trigger={'hover'} placement={'bottom-start'}>
               <PopoverTrigger>
                 <Link
+                isExternal
                   p={2}
                   href={navItem.href ?? '#'}
                   fontSize={'sm'}
@@ -273,6 +275,7 @@ import {
     {
       label: 'Compare Products',
       href: '/comparison',
+     
     },
     {
       label: 'Contact',
